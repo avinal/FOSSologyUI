@@ -37,7 +37,7 @@ jobs:
 
       - name: Build pages
         run: |
-          export PUBLIC_URL=https://avinal.space/FOSSologyUI
+          export PUBLIC_URL=/FOSSologyUI
           yarn build
 
       - name: Release to GitHub Pages
